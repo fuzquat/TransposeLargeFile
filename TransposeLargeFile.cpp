@@ -157,7 +157,6 @@ void Rewrite(std::string input_file_name, std::string output_file_name) {
 				printf("\\r endlines not supported.");
 				exit(-1);
 			}
-
 			fprintf(output_file.get(), "%d %d ", row, col);
 			if (last_char_in_file) {
 				cur_pos++;
